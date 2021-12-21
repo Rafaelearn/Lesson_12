@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab_13
 {
+    [AttributeUsage(AttributeTargets.Class, AllowMultiple = true)]
     class DeveloperInfo2Attribute:Attribute
     {
         public string NameDeveloper { get; set; }
